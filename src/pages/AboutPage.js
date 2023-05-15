@@ -36,14 +36,14 @@ export const AboutPage = () => {
                     const hash = crc32.str(info)
                     // console.log(hash)
                     //Раскомментировать, когда будет точно известен htmlTrue
-                    if (String(hash) === htmlTrue) {
+                    // if (String(hash) === htmlTrue) {
                         const link = document.createElement('a')
                         link.setAttribute('href', '/about.html')
                         link.setAttribute('target', 'blank')
                         link.click()
-                    } else {
-                        showMessage('Файл справочной информации со сведениями о системе был повреждён')
-                    }
+                    // } else {
+                    //     showMessage('Файл справочной информации со сведениями о системе был повреждён')
+                    // }
                 }
             } catch (e) {
                 showMessage("Ошибка при отправке запроса - "+e)
