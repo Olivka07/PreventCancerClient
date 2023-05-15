@@ -8,7 +8,7 @@ import { useMessage } from "../../hooks/message.hook"
 import { request } from "../../request/request"
 
 export const OriginalQuestionnairePage = () => {
-    const {anketaFromDb, list, updateList, ftchAnketa} = useContext(QuestionsContext)
+    const {anketaFromDb, list, updateList, updateAnketaFromDb} = useContext(QuestionsContext)
     const {message, showMessage, hideMessage} = useMessage()
 
     useEffect(() => {
@@ -23,6 +23,25 @@ export const OriginalQuestionnairePage = () => {
             }, 5000)
         }
     }, [message])
+
+    const ftchAnketa = async () => {
+        try {
+            const res = await request('/api/anketa/original')
+            if (res.ok) {
+                updateAnketaFromDb(res.list.sort((a,b) => {
+                    if (a.id_question>b.id_question) {
+                        return 1
+                    }
+                    if (b.id_question>a.id_question) {
+                        return -1
+                    }
+                    return 0
+                }))
+            }
+        } catch(e) {
+
+        }
+    }
 
 
     const clickAddNewQuestion = () => {
