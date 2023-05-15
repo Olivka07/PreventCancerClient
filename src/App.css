@@ -1,0 +1,1540 @@
+
+header {
+  width: inherit;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  padding: auto;
+}
+
+.header-p {
+  margin-left: 20px;
+  position: absolute;
+  height: inherit;
+}
+
+.header-p p{
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(131, 251, 255);
+}
+
+
+footer {
+  position: fixed;
+  width: inherit;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  bottom: 0px;
+}
+
+main {
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  justify-content: flex-end;
+}
+nav button {
+  height: inherit;
+  background-color: inherit;
+  border: 0px;
+  margin-right: 5px;
+}
+
+nav button:last-child {
+  height: inherit;
+  background-color: inherit;
+  border: 0px;
+  margin-right: 0px;
+}
+
+nav button:hover {
+  background-color: rgb(84, 83, 83);
+}
+
+
+
+nav button a{
+  color:rgb(192, 215, 236);
+  font-weight: 300;
+  line-height: 300%;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.page-header {
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.questionnaire-line p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.answer-line {
+  /* margin-left: 5%; */
+  padding-top: 2px;
+}
+
+.btn-submit {
+  width: inherit;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-submit button{
+  font-size: 15pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  padding: 0px 1%;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.btn-submit button:hover{
+  background-color: rgb(228, 230, 232);
+  box-shadow: 2px 2px 2px 2px rgb(2, 110, 33);
+  color:rgb(58, 174, 60);
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 20px;
+  top: 0;
+  position: fixed;
+  left: 50%;
+  color: rgb(2, 19, 33);
+  font-size: large;
+  margin-right: 50%;
+  transform: translateX(-50%);
+  padding: 20px 5px;
+  border: 2px solid black;
+  border-radius: 3%;
+  text-align: center;
+  min-width:max-content;
+  background-color: rgb(255, 221, 221);
+  z-index: 9999;
+}
+
+.red-recommendation {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24pt;
+  font-weight: 600;
+  color: rgb(159, 27, 27);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.green-recommendation {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24pt;
+  font-weight: 600;
+  color: green;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.count-recommendation {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18pt;
+  font-weight: 600;
+}
+
+.btn-submit-get-recommendation {
+  width: inherit;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-submit-get-recommendation button{
+  font-size: 15pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  width: max-content;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.btn-submit-get-recommendation button:hover{
+  background-color: rgb(228, 230, 232);
+  box-shadow: 2px 2px 2px 2px rgb(2, 110, 33);
+  color:rgb(58, 174, 60);
+  cursor: pointer;
+}
+
+.instruction {
+  width: 50%;
+  background-color: transparent;
+  margin: 10px auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.instruction p, span {
+  font-size: 16pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+.instruction span {
+  display: block;
+}
+
+.instruction-year {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.instruction button {
+  padding: 10px;
+  font-size: 12pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  background-color: rgb(163, 194, 218);
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 3px black;
+  border-radius: 5px;
+}
+
+.instruction button:hover {
+  background-color: rgb(3, 101, 166);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.inputForm p {
+  font-size: 30px;
+  font-weight: 500;
+} 
+
+.element-of-form label {
+  float: left;
+  font-size: large;
+}
+.element-of-form input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  border: 2px solid rgb(16, 0, 32);
+  width: 70%;
+}
+
+.inputForm button {
+  background-color: rgb(219, 228, 247);
+  width: 40%;
+  height: max-content;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+}
+
+.inputForm button:last-child {
+  margin-left: 10%;
+}
+
+.element-of-form-pol label {
+  float: left;
+  font-size: large;
+}
+
+
+.element-of-form-pol input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  border: 2px solid rgb(16, 0, 32);
+  width: 2%;
+  margin-right: 10px;
+}
+
+.adminContent button {
+  /* margin: 0 auto; */
+  display: block;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 100px;
+  box-shadow: 3px 3px 10px black;
+  border: 0;
+  font-size: 200%;
+}
+
+.table thead th{
+  border-bottom: 1px solid black;
+  font-size: 13pt;
+}
+
+.button-add-in-table {
+  /* margin-left: 7%; */
+  margin-bottom: 20px;
+  border: 2px solid black;
+  width: max-content;
+  font-size: 12pt;
+  font-weight: 600;
+  padding: 7px 11px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.table input,.table select,.table button {
+  padding: 5px;
+  font-size: 13pt;
+  border: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.content-modal {
+  max-height: 25rem;
+  overflow-y: scroll;
+  background-color: white;
+  z-index: 9999;
+  margin: 10rem auto;
+  padding: 5px 20px 10px 20px;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.btn-center {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 16pt;
+  border: none;
+  background-color: rgb(8, 8, 63);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(208, 208, 24);
+}
+
+.btn-back {
+  padding: 5px;
+  position: absolute;
+  left: 10rem;
+  font-size: 20pt;
+  font-weight: bolder;
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.list-element {
+  margin: 10px auto;
+  padding-left: 10px;
+  font-size: 20px;
+  width: 50%;
+  line-height:40px;
+  background-color: #cda2fb;
+  border: none;
+  border-radius: 5px;
+}
+.list-element-anketa {
+  margin: 10px auto;
+  padding-left: 10px;
+  font-size: 20px;
+  width: 50%;
+  line-height:40px;
+  background-color: #cda2fb;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-print-anketa {
+  font-size: 20pt;
+  color: #000000c0;
+  position: absolute;
+  right: 26rem;
+  top: 10.5rem;
+  border: 0;
+}
+
+.dict span {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+.button-add-in-list {
+  border: 2px solid black;
+  width: max-content;
+  font-size: large;
+  font-weight: 600;
+  padding: 1% 3%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.str-dict input {
+  width: 70%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14pt;
+  font-weight: 600;
+  border: none;
+}
+
+.table-list {
+  width: 100%;
+  max-height: 80%;
+  overflow-y: scroll;
+}
+.name-of-question input {
+  font-size: medium;
+  display: block;
+}
+
+.name-of-question button {
+  position: absolute;
+  bottom: 0;
+  width: max-content;
+  padding: 3px 7px;
+  font-size:medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.item-of-questionnaire {
+  margin-top: 3%;
+  padding: 10px;
+  padding-top: 1px;
+  justify-content: space-between;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  height: 120px;
+}
+
+.name-of-question label {
+  font-size: large;
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5px;
+}
+.answers span {
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn-add-answer {
+  margin-top: 5px;
+  height: min-content;
+  box-sizing: border-box;
+  font-size: 14pt;
+  text-align: center;
+  padding: 0;
+  width: 5%;
+  margin-left: 5%;
+}
+.input-answer-in-list {
+  font-size: medium;
+  margin-right: 4px;
+}
+
+.input-weight-answer-in-list {
+  font-size: medium;
+  width: 10%;
+  margin-right: 4px;
+}
+.doctorContent button {
+  /* margin: 0 auto; */
+  display: block;
+  margin-bottom: 5%;
+  width: 100%;
+  height: 100px;
+  box-shadow: 3px 3px 10px black;
+  border: 0;
+  font-size: 200%;
+}
+.btn-add-text {
+  display: block;
+  margin: 20px 23rem;
+  text-align: center;
+  font-size: 16pt;
+  border: none;
+  background-color: rgb(133, 70, 3);
+  color: rgb(244, 244, 244);
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(208, 208, 24);
+}
+
+.list-element-text {
+  margin: 10px auto;
+  padding-left: 10px;
+  font-size: 20px;
+  width: 50%;
+  line-height:40px;
+  background-color: #cda2fb;
+  border: none;
+  border-radius: 5px;
+}
+.btn-delete-text {
+  background-color: transparent;
+  color: rgba(255, 0, 0, 0.563);
+  border: 0;
+}
+.modal-text-content {
+  position: absolute;
+  /* left: 29rem;*/
+  top: 15rem; 
+  left: 50%;
+  /* top: 50%; */
+  transform: translate(-50%, -30%);
+  width: 50%;
+  height: 30rem;
+  background-color: #dad3e0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgb(47, 40, 44);
+  z-index: 9999;
+  padding: 5px 5px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.modal-text-content textarea {
+  width: 98%;
+  height: 85%;
+  padding: 5px;
+  font-size: 14pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+  color: #000000;
+  resize: none;
+}
+
+
+.btn-two {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 14pt;
+  border: none;
+  background-color: rgb(235, 242, 249);
+  color: rgb(29, 1, 1);
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(244, 244, 196);
+}
+.div-btn-statistics button {
+  display: block;
+  font-size: 30pt;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 2px 2px 2px 4px rgb(94, 153, 188);
+  margin-bottom: 3rem;
+  width: 10rem;
+}
+.span-in-list-text {
+  display: block;
+  white-space:nowrap;
+  width: 95%;
+  max-height: 40px;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+
+@media(max-width:2720px) {
+  nav button a{
+    font-size: 35px;
+    line-height: 240%;
+  }
+  .span-in-list-text {
+    max-height: 100px;
+  }
+  header {
+    height: 90px;
+  }
+  footer {
+    height: 90px;
+  }
+  .page-header {
+    font-size: 70px;
+  }
+  .questionnaire-line p {
+    font-size: 30px;
+  }
+  .questionnaire-line-red p {
+    font-size: 30px;
+  }
+  .answer-line label {
+    font-size: 30px;
+  }
+  .answer-line input {
+    transform: scale(2,2);
+    width: 30px;
+    opacity: 0.9;
+  }
+  .btn-submit button{
+    font-size: 35pt;
+  }
+  .message {
+    font-size: 35pt;
+  }
+  .red-recommendation {
+    font-size: 45pt;
+  }
+  
+  .green-recommendation {
+    font-size: 45pt;
+  }
+  
+  .count-recommendation {
+    font-size: 40pt;
+  }
+  .btn-submit-get-recommendation button{
+    font-size: 30pt;
+  }
+  .instruction p, span {
+    font-size: 25pt;
+  }
+  .instruction button {
+    font-size: 20pt;
+  }
+  .inputForm p {
+    font-size: 60px;
+  } 
+
+  .element-of-form label {
+    font-size: 35pt;
+  }
+  .element-of-form input {
+    font-size: 35pt;
+  }
+  .inputForm button {
+    font-size: 40px;
+  }
+  .element-of-form-pol label {
+    font-size: 35pt;
+  }
+  
+  
+  .element-of-form-pol input {
+    font-size: 35pt;
+  }
+  .one-header-elem-of-form {
+    margin-right: 24%;
+  }
+  .adminContent button {
+    font-size: 50px;
+  }
+  .table thead th{
+    font-size: 26pt;
+  }
+  .button-add-in-table {
+    font-size: 24pt;
+  }
+  .table input,.table select,.table button {
+    font-size: 26pt;
+  }
+  .content-modal {
+    max-height: 40rem;
+  }
+  .btn-center {
+    font-size: 32pt;
+  }
+  .btn-back {
+    font-size: 40pt;
+  }
+  .list-element {
+    font-size: 40px;
+    line-height: 80px;
+  }
+  .list-element-anketa {
+    font-size: 40px;
+    line-height:80px;
+  }
+  .btn-print-anketa {
+    font-size: 40pt;
+  }
+  .dict span {
+    font-size: 28pt;
+  }
+  .button-add-in-list {
+    font-size: 24pt;
+  }
+  .str-dict input {
+    font-size: 28pt;
+  }
+  .str-dict button {
+    font-size: 28pt;
+  }
+  .table-list {
+    max-height: 240px;
+  }
+
+
+  .name-of-question input {
+    margin-top: 20px;
+    font-size: 25pt;
+  }
+  .name-of-question button {
+    padding: 3px 7px;
+    font-size:24pt;
+  }
+  .item-of-questionnaire {
+    margin-top: 3%;
+    padding: 10px;
+    padding-top: 2px;
+    height: 250px;
+  }
+  .name-of-question label {
+    font-size: 30pt;
+  }
+  .answers span {
+    font-size: 30pt;
+  }
+  .btn-add-answer {
+    font-size: 20pt;
+  }
+  .input-answer-in-list {
+    font-size: 20pt;
+  }
+  
+  .input-weight-answer-in-list {
+    font-size: 20pt;
+  }
+  .btn-delete-answer {
+    font-size: 20pt;
+  }
+  .doctorContent button {
+    font-size: 350%;
+  }
+  .btn-add-text {
+    font-size: 32pt;
+  }
+  .list-element-text {
+    font-size: 40px;
+    line-height:80px;
+  }
+  .btn-delete-text {
+    font-size: 26pt;
+  }
+  .modal-text-content {
+    transform: translate(-50%, -10%);
+    height: 45rem;
+  }
+  
+  .modal-text-content textarea {
+    width: 98%;
+    height: 85%;
+    padding: 5px;
+    font-size: 28pt;
+  } 
+  .btn-two {
+    font-size: 28pt;
+  }
+  .div-btn-statistics button {
+    font-size: 40pt;
+    width: 15rem;
+  }
+  .pie {
+    height: 650px;
+  }
+}
+
+@media(max-width:1640px) {
+  nav button a{
+    line-height: 300%;
+    font-size: 15px;
+  }
+  header {
+    height: 50px;
+  }
+  footer {
+    height: 50px;
+  }
+  .page-header {
+    font-size: 30px;
+  }
+  .questionnaire-line p {
+    font-size: 20px;
+  }
+  .questionnaire-line-red p {
+    font-size: 20px;
+  }
+  .answer-line label {
+    text-align: center;
+    font-size: 15px;
+  }
+  .answer-line input {
+    transform: none;    
+  }
+  .btn-submit button{
+    font-size: 15pt;
+  }
+  .message {
+    font-size: large;
+  }
+  .red-recommendation {
+    font-size: 24pt;
+  }
+  
+  .green-recommendation {
+    font-size: 24pt;
+  }
+  
+  .count-recommendation {
+    font-size: 18pt;
+  }
+
+  .btn-submit-get-recommendation button{
+    font-size: 15pt;
+  }
+  .instruction p, span {
+    font-size: 16pt;
+  }
+  .instruction button {
+    font-size: 12pt;
+  }
+  .inputForm p {
+    font-size: 30px;
+  } 
+  .element-of-form label {
+    font-size: large;
+  }
+  .element-of-form input {
+    font-size: large;
+  }
+  .inputForm button {
+    font-size: 24px;
+  }
+  .element-of-form-pol label {
+    font-size: large;
+  }
+  
+  
+  .element-of-form-pol input {
+    font-size: large;
+  }
+  .one-header-elem-of-form {
+    margin-right: 24%;
+  }
+  .adminContent button {
+    font-size: 200%;
+  }
+  .table thead th{
+    font-size: 13pt;
+  }
+  .button-add-in-table {
+    font-size: 12pt;
+  }
+  .table input,.table select,.table button {
+    font-size: 13pt;
+  }
+  .content-modal {
+    max-height: 25rem;
+  }
+  .btn-center {
+    font-size: 16pt;
+  }
+  .btn-back {
+    font-size: 20pt;
+  }
+  .list-element {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .list-element-anketa {
+    font-size: 20px;
+    line-height:40px;
+  }
+  .btn-print-anketa {
+    font-size: 20pt;
+  }
+  .dict span {
+    font-size: 14pt;
+  }
+  .button-add-in-list {
+    font-size: large;
+  }
+  .str-dict input {
+    font-size: 14pt;
+  }
+  .str-dict button {
+    font-size: 14pt;
+  }
+  .table-list {
+    max-height: 80%;
+  }
+  .name-of-question input {
+    font-size: medium;
+  }
+  
+  .name-of-question button {
+    padding: 3px 7px;
+    font-size:medium;
+  }
+  .item-of-questionnaire {
+    margin-top: 3%;
+    padding: 10px;
+    padding-top: 1px;
+    height: 120px;
+  }
+  .name-of-question label {
+    font-size: large;
+  }
+  .answers span {
+    font-size: large;
+  }
+  .btn-add-answer {
+    font-size: 14pt;
+  }
+  .input-answer-in-list {
+    font-size: medium;
+  }
+  
+  .input-weight-answer-in-list {
+    font-size: medium;
+  }
+  .btn-delete-answer {
+    font-size: medium;
+  }
+  .doctorContent button {
+    font-size: 200%;
+  }
+  .btn-add-text {
+    font-size: 16pt;
+  }
+  .list-element-text {
+    font-size: 20px;
+    line-height:40px;
+  }
+  .btn-delete-text {
+    font-size: 15pt;
+  }
+  .modal-text-content {
+    transform: translate(-50%, -30%);
+    height: 30rem;
+  }
+  
+  .modal-text-content textarea {
+    width: 98%;
+    height: 85%;
+    padding: 5px;
+    font-size: 14pt;
+  } 
+  .btn-two {
+    font-size: 14pt;
+  }
+  .div-btn-statistics button {
+    font-size: 30pt;
+    width: 10rem;
+  }
+  .pie {
+    height: 400px;
+  }
+}
+
+
+.usersContent {
+  width: inherit;
+  max-height: inherit;
+  margin-bottom: 10%;
+}
+.usersContent > p{
+  width: inherit;
+  text-align: center;
+}
+
+.anketa {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.questionnaire-line {
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 17%;
+  box-shadow: 1px 1px 3px 1px rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.questionnaire-line-red {
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 17%;
+  box-shadow: 1px 1px 3px 1px rgb(216, 102, 102);
+  border-radius: 5px;
+}
+
+
+
+.questionnaire-line-red p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+
+.inputForm {
+  margin: auto;
+  margin-top: 6rem;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  border: 6px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 100px;
+}
+
+.element-of-form {
+  line-height: 25px;
+  margin-bottom: 10px;
+  padding: 5px;
+  clear:both; 
+  text-align:right;
+}
+
+
+
+.element-of-form-pol {
+  line-height: 25px;
+  margin-bottom: 10px;
+  padding: 5px;
+  clear:both; 
+  text-align:left;
+  display: flex;
+}
+
+
+
+
+
+.element-of-form select {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  border: 2px solid rgb(16, 0, 32);
+  width: 80%;
+}
+
+.element-of-form div {
+  font-size: large;
+  text-align: left;
+}
+/* .inputForm input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+*/
+
+
+
+
+.direction-recomendation-pacient {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 70%;
+  height: 50%;
+  padding: 10px;
+  font-size: 16px;
+  font-family:system-ui,  'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 4px solid rgb(116, 15, 15);
+  background-color: rgb(197, 224, 248);
+}
+
+.head-p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main nav {
+  margin-top: 5px;
+  width: inherit;
+  height: 50px;
+  background-color: rgb(32, 63, 100);
+  padding: auto;
+}
+
+.patient{
+  margin-bottom: 1px;
+  width: 100%;
+}
+
+.patient button{
+  width: 100%;
+  text-align: left;
+}
+
+.list-patients div:last-child {
+  background-color: rgb(187, 187, 244);
+}
+
+
+.patient button a{
+  text-decoration: none;
+}
+
+
+
+
+
+.inputForm button a {
+  width: inherit;
+  height: inherit;
+}
+
+.inputForm button a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+
+.inputForm button:hover {
+  background-color: rgb(26, 26, 67);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.adminContent {
+  width: 70%;
+  margin:auto;
+  margin-top: 5%;
+  align-items: center;
+}
+.adminContent a{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+
+.adminContent button:hover{
+  cursor: pointer;
+  background-color: rgb(192, 202, 235);
+  box-shadow: 3px 3px 10px rgb(11, 9, 127);
+}
+
+.adminContent a:-webkit-any-link {
+  color: black;
+}
+
+
+
+.doctorContent {
+  width: 70%;
+  margin:auto;
+  margin-top: 10%;
+  align-items: center;
+}
+.doctorContent a{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+.doctorContent button:hover{
+  cursor: pointer;
+  background-color: rgb(192, 202, 235);
+  box-shadow: 3px 3px 10px rgb(11, 9, 127);
+}
+
+.doctorContent a:-webkit-any-link {
+  color: black;
+}
+
+
+
+.main-content {
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 60px;
+}
+
+
+.button-add-in-list:hover {
+  cursor: pointer;
+  color: rgb(9, 12, 46);
+  background-color: rgb(247, 238, 226);
+}
+
+
+
+.name-of-question {
+  position: relative;
+}
+
+
+
+.name-of-question button:hover {
+  cursor: pointer;
+  color: rgb(9, 12, 46);
+  background-color: rgb(247, 238, 226);
+}
+
+.answers {
+  position: relative;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.answers-in-list {
+
+  margin-bottom: 4px;
+}
+
+
+
+.just-content {
+  justify-content: space-between;
+  display: flex;
+}
+
+
+
+.just-content button{
+  display: block;
+}
+
+
+
+.flexing-dicts {
+  display: flex;
+  height: 100px;
+  margin: 20px auto;
+  width: 100%;
+  height: 450px;
+  padding: 10px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.dict {
+  text-align: center;
+  padding: 5px;
+  width: 40%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+
+.list-dict {
+  box-sizing: border-box;
+  margin-top: 10px;
+  height: 93%;
+  width: 100%;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.dict .button-add-in-list {
+  display: block;
+  margin-bottom: 40px;
+}
+
+
+
+.str-dict {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 1px 4px;
+  background-color: white;
+  margin-bottom: 2px;
+}
+
+
+
+.flexing {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav button:hover {
+  cursor: pointer;
+}
+
+nav a {
+  display: block;
+  height: inherit;
+  width: inherit;
+  line-height: 300%;
+}
+
+.table {
+  display: block;
+  margin: auto;
+  overflow-x: scroll;
+}
+
+
+
+
+.btn-print-anketa:hover {
+  cursor: pointer;
+  color: #000000;
+}
+
+
+
+
+.button-add-in-table:hover {
+  cursor: pointer;
+  color: rgb(9, 12, 46);
+  background-color: rgb(176, 241, 169);
+}
+
+
+
+.table input:disabled {
+  color: #000000;
+}
+
+.table button:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px black;
+}
+
+
+
+
+.table tbody tr:nth-child(2n+1) {
+  background-color: rgb(125, 172, 210);
+}
+
+.table tbody tr:nth-child(2n) {
+  background-color: rgb(210, 125, 159);
+}
+
+.flexing-answers {
+  display: flex;
+  width: 48%;
+  justify-content: space-between;
+}
+
+.btn-add-answer:hover {
+  color: rgb(0, 203, 0);
+  cursor: pointer;
+}
+
+.btn-delete-answer:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+
+
+.select-patients {
+  width: 25%;
+  font-size: 12pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+  border: 2px solid black;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.alert-void {
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10%;
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.list-element:hover {
+  cursor: pointer;
+  background-color: #5c2993;
+  color: white;
+}
+
+.list-elements {
+  padding: 10px 0;
+  max-height: 30rem;
+  overflow-y:scroll;
+}
+
+
+
+
+.list-elements-anketa {
+  padding: 10px 0;
+  max-height: 30rem;
+  overflow-y:scroll;
+}
+
+.bold-answer {
+  font-weight: bolder;
+}
+
+
+
+.btn-back:hover {
+  cursor: pointer;
+  background-color: #9e9b9b;
+}
+
+.modal {
+  position: fixed;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  background-color: #0000006f;
+  z-index: 5000;
+}
+
+
+
+
+.btn-center:hover {
+  background-color: rgb(208, 208, 230);
+  color: rgb(5, 15, 72);
+  box-shadow: 3px 3px 3px rgb(91, 208, 24);
+  cursor: pointer;
+}
+
+.btn-print {
+  font-weight: bolder;
+}
+
+.modal-text-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #00000084;
+  width: 100%;
+  height: 100%;
+  z-index: 4000;
+}
+
+.modal-text-bg-strong {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  z-index: 4000;
+}
+
+
+
+.btn-two:hover {
+  background-color: rgb(208, 208, 230);
+  color: rgb(5, 15, 72);
+  box-shadow: 3px 3px 3px rgb(91, 208, 24);
+  cursor: pointer;
+}
+
+
+
+
+.btn-add-text:hover {
+  background-color: rgb(208, 208, 230);
+  color: rgb(5, 15, 72);
+  box-shadow: 3px 3px 3px rgb(91, 208, 24);
+  cursor: pointer;
+}
+
+
+.btn-delete-text:hover {
+  cursor: pointer;
+  color: rgb(255, 0, 0);
+}
+
+
+
+.span-in-list-text:hover {
+  cursor: pointer;
+}
+
+.with-statistics {
+  width: 100%;
+}
+
+.flexing-on-page-statictics {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.div-btn-statistics {
+  padding-top: 15%;
+}
+
+
+
+.div-btn-statistics button:hover {
+  background-color: #e2e2e2;
+  box-shadow: 2px 2px 2px 4px rgb(177, 94, 95);
+  cursor: pointer;
+}
+
+
+
+#btn_show_hide {
+  background-color: inherit;
+  border: 0;
+  text-align: left;
+  text-decoration: underline;
+  color:rgb(3, 101, 166);
+  padding: 0;
+}
+
+#btn_show_hide:hover {
+  color:rgb(0, 89, 255);
+  cursor: pointer;
+}
+
+.center-anketa {
+  justify-content: center;
+  display: flex;
+  
+  /* position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -20%); */
+  height: min-content;
+  width: max-content;
+  background-color: #f0eded4e;
+}
+
+
+
