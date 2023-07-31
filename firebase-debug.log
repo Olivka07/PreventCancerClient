@@ -1,0 +1,123 @@
+[debug] [2023-06-04T06:11:26.567Z] ----------------------------------------------------------------------
+[debug] [2023-06-04T06:11:26.568Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\uchen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-04T06:11:26.569Z] CLI Version:   12.3.0
+[debug] [2023-06-04T06:11:26.569Z] Platform:      win32
+[debug] [2023-06-04T06:11:26.569Z] Node Version:  v17.5.0
+[debug] [2023-06-04T06:11:26.570Z] Time:          Sun Jun 04 2023 10:11:26 GMT+0400 (GMT+04:00)
+[debug] [2023-06-04T06:11:26.570Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-04T06:11:26.576Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-04T06:11:26.576Z] > authorizing via signed-in user (apirusov@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\uchen\Desktop\ВКР2023\diplomOnGitHub(15.05)\client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-04T06:11:36.413Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2023-06-04T06:11:37.104Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2023-06-04T06:11:37.105Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2023-06-04T06:11:39.309Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/preventcancerclient:addFirebase [none]
+[debug] [2023-06-04T06:11:39.806Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/preventcancerclient:addFirebase 403
+[debug] [2023-06-04T06:11:39.806Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/preventcancerclient:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-06-04T06:11:39.807Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-06-04T06:11:39.975Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\uchen\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\uchen\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2023-06-04T06:26:59.278Z] ----------------------------------------------------------------------
+[debug] [2023-06-04T06:26:59.282Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\uchen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-04T06:26:59.282Z] CLI Version:   12.3.0
+[debug] [2023-06-04T06:26:59.283Z] Platform:      win32
+[debug] [2023-06-04T06:26:59.283Z] Node Version:  v17.5.0
+[debug] [2023-06-04T06:26:59.296Z] Time:          Sun Jun 04 2023 10:26:59 GMT+0400 (GMT+04:00)
+[debug] [2023-06-04T06:26:59.296Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-04T06:26:59.321Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-04T06:26:59.323Z] > authorizing via signed-in user (apirusov@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\uchen\Desktop\ВКР2023\diplomOnGitHub(15.05)\client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-04T06:27:11.979Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2023-06-04T06:27:12.753Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2023-06-04T06:27:12.753Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2023-06-04T06:27:16.215Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/preventcancerclient:addFirebase [none]
+[debug] [2023-06-04T06:27:16.715Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/preventcancerclient:addFirebase 403
+[debug] [2023-06-04T06:27:16.715Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/preventcancerclient:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-06-04T06:27:16.716Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-06-04T06:27:16.942Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\uchen\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\uchen\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2023-06-04T06:31:24.902Z] ----------------------------------------------------------------------
+[debug] [2023-06-04T06:31:24.904Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\uchen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-04T06:31:24.904Z] CLI Version:   12.3.0
+[debug] [2023-06-04T06:31:24.904Z] Platform:      win32
+[debug] [2023-06-04T06:31:24.904Z] Node Version:  v17.5.0
+[debug] [2023-06-04T06:31:24.905Z] Time:          Sun Jun 04 2023 10:31:24 GMT+0400 (GMT+04:00)
+[debug] [2023-06-04T06:31:24.905Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-04T06:31:24.911Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-04T06:31:24.911Z] > authorizing via signed-in user (apirusov@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\uchen\Desktop\ВКР2023\diplomOnGitHub(15.05)\client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-04T06:31:34.758Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2023-06-04T06:31:35.583Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2023-06-04T06:31:35.583Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2023-06-04T06:31:39.011Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/preventcancerclient:addFirebase [none]
+[debug] [2023-06-04T06:31:39.528Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/preventcancerclient:addFirebase 403
+[debug] [2023-06-04T06:31:39.528Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/preventcancerclient:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-06-04T06:31:39.529Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-06-04T06:31:39.708Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\uchen\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\uchen\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.

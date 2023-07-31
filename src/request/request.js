@@ -7,7 +7,8 @@ export async function request(url, method = "GET", data = null) {
             headers['Content-Type'] = 'application/json'
             body = JSON.stringify(data)
         }
-        const newUrl = 'https://preventcancerserver.up.railway.app'+url
+        // const newUrl = 'https://preventcancerserver.up.railway.app'+url
+        const newUrl = 'https://preventcancerserver.onrender.com'+url
         const response = await fetch(newUrl, {
             method,
             body,
